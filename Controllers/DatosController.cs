@@ -3,6 +3,7 @@ using formulario.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
+
 namespace formulario.Controllers;
 
 public class DatosController : Controller
@@ -16,12 +17,19 @@ public class DatosController : Controller
 
         return View(formulario);
     }
-    public ActionResult ProcesarDatos(string name)
+    /*
+    PARA RECIBIR PARAMETROS ENVIADOS POR GET*/
+    public ActionResult ProcesarDatos(string nombre)
     {
-        //string json = JsonConvert.SerializeObject(param);
-        // Hacer algo con los datos (por ejemplo, guardarlos en la base de datos)
-        var resultado = $"Datos recibidos: Nombre = {name}";
-        return Json(resultado); // Enviar una respuesta JSON
+        var resultado = $"Datos recibidos: Nombre = {nombre}";
+        return Content(resultado); // Enviar una respuesta JSON
         //return Content(json, "application/json");
     }
+    /*public ActionResult ProcesarDatos([FromBody] MiModelo param)
+    { 
+        var objeto = new {param};
+        string json = JsonConvert.SerializeObject(param);
+        //var resultado = $"Datos recibidos: Nombre = {nombre}";
+        return Content (json, "application/json");
+    }*/
 }

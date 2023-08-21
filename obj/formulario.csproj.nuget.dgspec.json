@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ELIAS\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj": {}
+    "C:\\Users\\rbernardo\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ELIAS\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj": {
+    "C:\\Users\\rbernardo\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELIAS\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj",
+        "projectUniqueName": "C:\\Users\\rbernardo\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj",
         "projectName": "formulario",
-        "projectPath": "C:\\Users\\ELIAS\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj",
-        "packagesPath": "C:\\Users\\ELIAS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELIAS\\Desktop\\platzi\\cSharp\\formulario\\obj\\",
+        "projectPath": "C:\\Users\\rbernardo\\Desktop\\platzi\\cSharp\\formulario\\formulario.csproj",
+        "packagesPath": "C:\\Users\\rbernardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbernardo\\Desktop\\platzi\\cSharp\\formulario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ELIAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rbernardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -41,7 +42,7 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
